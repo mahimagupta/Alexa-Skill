@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "usc facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+             "a fact",
+            "a USC fact",
+            "tell me a fact",
+            "tell me a USC fact",
+            "give me a fact",
+            "give me a USC fact",
+            "tell me trivia",
+            "tell me a USC trivia",
+            "give me trivia",
+            "give me a USC trivia",
+            "give me some information",
+            "give me some USC information",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}
